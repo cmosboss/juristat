@@ -1,5 +1,4 @@
-
-#Test code project for Juristat
+# Test code project for Juristat
 
 ### Make sure to install using the following steps
 
@@ -31,4 +30,4 @@
 
 10: Setup delete / hide functionality to hit the DB and update the state object.
 
-11: Cleanup of code and variable names.
+11: Cleanup of code and variable names along with some linting (ignoring windows vs mac issues).
