@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  color:white;
+  padding:30px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body, html {
+  background: url('http://designwoop.com/uploads/2012/03/04_free_subtle_textures_blueprint_texture.jpg');
+}
