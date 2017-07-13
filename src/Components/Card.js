@@ -25,15 +25,17 @@ class Card extends Component {
 	};
 	render() {
 		return (
-			<div className="col s12 xl6 ">
-				<div className="card z-depth-3">
-					<div className="card-image">
-						<img src={this.props.image} alt={this.props.headline}/>
+			<div className="row">
+				<div className="col s12 xl6 cardCol">
+					<div className="card z-depth-3">
+						<div className="card-image">
+							<img src={this.props.image} alt={this.props.headline}/>
 							<span className="card-title">{this.props.headline}</span>
 							<div onClick={this.removeItem} className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">visibility_off</i></div>
-					</div>
-					<div className="card-content">
-						<p>Link to full article <a target="_blank" href={this.props.url}>here</a></p>
+						</div>
+						<div className="card-content">
+							<p>Link to full article <a target="_blank" href={this.props.url}>here</a></p>
+						</div>
 					</div>
 				</div>
 			</div>

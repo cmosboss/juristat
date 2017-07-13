@@ -35,11 +35,9 @@ class App extends Component {
 		return (
 			<div className="App">
 				<h1>Juristat</h1>
-				<div className="row" id="cardRow">
 					{this.state.articles.map(function(article, i){
 						return <Card key={i} articleIndex={i} articleId={article.id} headline={article.headline} image={article.image} url={article.url} remove={that.removeArticle}/>;
 					})}
-				</div>
 			</div>
 		);
 	}
